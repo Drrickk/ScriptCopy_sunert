@@ -3,7 +3,7 @@ name: 中青自动阅读
 on:
   workflow_dispatch:
   schedule:
-     - cron: '4 0,4,8,12 * * *'
+     - cron: '4 0-12/3 * * *'
   watch:
     types: started
 jobs:
